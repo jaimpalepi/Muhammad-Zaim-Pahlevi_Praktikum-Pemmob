@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initNavigation(){
         binding.btnToPage2.setOnClickListener {
-            startActivity(Intent(packageContext = this, cls = Halaman2Activity::class.java))
+            startActivity(Intent(this,Halaman2Activity::class.java))
         }
     }
 }

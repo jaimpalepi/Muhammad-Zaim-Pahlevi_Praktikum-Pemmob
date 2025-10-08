@@ -6,7 +6,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.ifunsoedmobile.data.model.BookDoc
-import com.example.ifunsoedmobile.data.network.RetrofitInstance
+
+import com.example.ifunsoedmobile.network.RetrofitInstance
 import kotlinx.coroutines.launch
 
 class MainViewModel : ViewModel() {

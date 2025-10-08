@@ -3,15 +3,17 @@ package com.example.ifunsoedmobile.data.model
 import com.google.gson.annotations.SerializedName
 
 data class SearchResponse(
-    @SerializedName( value = "docs")
+    @SerializedName("docs")
     val docs: List<BookDoc>
 )
 
 data class BookDoc(
-    @SerializedName( value = "title")
+    @SerializedName("title")
     val title: String?,
-    @SerializedName( value = "author_name")
+    @SerializedName("author_name")
     val authorName: List<String>?,
-    @SerializedName( value = "first_publish_year")
-    val firstPublishYear: Int?
+    @SerializedName("first_publish_year")
+    val firstPublishYear: Int?,
+    @SerializedName("cover_i")
+    val coverId: Int?
 )
